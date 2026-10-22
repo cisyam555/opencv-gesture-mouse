@@ -2,3 +2,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 output/
+
+# MediaPipe 模型在本地按 README 下载
+opencv/models/*.task
