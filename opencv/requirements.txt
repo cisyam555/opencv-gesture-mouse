@@ -1,4 +1,5 @@
-mediapipe==1.1.1
-numpy==2.5.4
-opencv-contrib-python==5.0.0.93
-PyAutoGUI==0.9.54
+# 本项目需要安装的第三方库；使用 pip install -r requirements.txt 安装。
+mediapipe==1.1.1  # 识别手部并定位手指关节。
+numpy==2.5.4  # 计算手指距离、图像坐标和屏幕坐标。
+opencv-contrib-python==5.0.0.93  # 读取摄像头、处理画面并显示预览窗口。
+PyAutoGUI==0.9.54  # 获取屏幕信息并执行鼠标移动、点击和滚动。
