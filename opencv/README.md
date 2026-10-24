@@ -2,6 +2,18 @@
 
 本目录是程序运行目录。完整的功能介绍、安装、手势、原理、参数、验证步骤与常见问题见[项目 README](../README.md)。
 
+## 本机已有环境快速启动
+
+下面的绝对路径对应开发者本机，其他设备按实际克隆位置替换：
+
+```bash
+cd "/home/cisyam/文档/ChatGPT/opencv项目/opencv"
+source .venv/bin/activate
+python main.py
+```
+
+版本演进及实现顺序见[项目 README 的版本说明](../README.md#版本演进)。
+
 ## 启动
 
 首次使用请先按项目 README 安装依赖，并下载模型到 `models/hand_landmarker.task`。
